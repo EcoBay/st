@@ -105,35 +105,34 @@ unsigned int tabspaces = 8;
 float alpha = 1;
 
 static const char *colorname[] = {
- 	"#00011A",
- 	"#4447A4",
- 	"#0477C6",
- 	"#9A6CB2",
- 	"#059DE4",
- 	"#40A5E3",
- 	"#60D1FC",
- 	"#AFEAFA",
+ 	"#282828",
+ 	"#ea6962",
+    "#a9b665",
+ 	"#d8a657",
+ 	"#7daea3",
+ 	"#d3869b",
+ 	"#89b482",
+ 	"#d4be98",
 
- 	"#666666",
- 	"#4447A4",
- 	"#0477C6",
- 	"#9A6CB2",
- 	"#059DE4",
- 	"#40A5E3",
- 	"#60D1FC",
- 	"#AFEAFA",
+ 	"#928374",
+ 	"#ef938e",
+ 	"#bbc585",
+ 	"#e1bb7e",
+ 	"#9dc2ba",
+ 	"#e1acbb",
+ 	"#a7c7a2",
+ 	"#e2d3ba",
 
 	[255] = 0,
 
- 	"#00011A",
- 	"#AFEAFA",
+ 	"#cccccc",
  	"#555555",
 };
 
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 258;
+unsigned int defaultfg = 15;
+unsigned int defaultbg = 0;
+static unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 257;
 
 
 /*
